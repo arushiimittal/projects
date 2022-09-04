@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <tile>A website in its very initial stages</tile>
+    </head>
+    
+    <body>
+        <h1>Why GYG is amazing </h1>
+        <h2> Why GYG is amazing </h2>
+        <h3> Why GYG is amazing </h3>
+        <h4> Why GYG is amazing </h4>
+        <h5>Why GYG is amazing </h5>
+        <h6> Why GYG is amazing</h6>
+        <p> 
+           <strong> This is dedicated to why GYG is amazing. </strong> <em> This is dedicated to why GYG is amazing.</em>
+            <a href="https://www.guzmanygomez.com.au/" target="_blank"> This is dedicated to why GYG is amazing.</a>
+        </p>
+        
+        <br>
+        <!--Dot bullet points-->
+        <p> GYG IS AMAZING BECAUSE:</p>
+        <ul>
+            <li> GYG is amazing</li> 
+            <li> GYG is amazing</li>   
+            <li> GYG is amazing</li> 
+            <li> GYG is amazing</li> 
+        </ul>
+        <!--Number bullet points-->
+        <ol>
+<p> GYG IS YES, BETTER THAN MAD MEX BECAUSE:</p>
+            <li> GYG is amazing</li> 
+            <li>GYG is amazing</li>   
+            <li> GYG is amazing</li> 
+            <li> GYG is amazing</li> 
+        </ol>
+        <!--Table-->
+        <hr>
+        <p> GYG IS SIMPLY GOD TIER BECAUSE:</p>
+        <table>
+        
+            <thead>
+                <tr>
+                    <th> GYG is amazing</th>
+                    <th> GYG is amazing</th>
+                    <th> GYG is amazing</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td> GYG is amazing</td>
+                    <td> GYG is amazing</td>
+                    <td> GYG is amazing</td>
+                </tr>
+                
+                <tr>
+                    <td> GYG is amazing</td>
+                    <td> GYG is amazing</td>
+                    <td> GYG is amazing</td>
+                </tr>
+
+                <tr>
+                    <td> GYG is amazing</td>
+                    <td> GYG is amazing</td>
+                    <td> GYG is amazing</td>
+                </tr>
+                
+            </tbody>
+        </table>
+        
+
+        <br>
+        <hr>
+        <p> PLEASE SUBSCRIBE FOR OUR NEWSLETTER:</p>
+        <!--Creating the various form fields-->
+        <form action="process.php" method = "POST"> <!-- befninnging form-->
+            <label>First Name: </label>
+            <input type ="text" name="first-name">
+        <br>
+            <label>Last Name: </label>
+            <input type ="text" name="last-name">
+        <br>
+            <label>Email: </label>
+            <input type ="email" name="Email">
+        <br>
+        <div>
+            <label>Message</label>
+            <textarea></textarea>
+        </div>
+        <br>
+        <div>
+            <label> Gender:</label>
+            <select name="gender">
+            <option value="male">Male</option>
+            <option value="female">Female</option>
+            <option value="other">Other</option>
+        </div>
+        <br>
+       
+            <label> Birthday: </label>
+            <input type ="date" name="birthday">
+        
+        <br>
+            <label> Age: </label>
+            <input type ="number" name="age" value="30">
+        </form>
+        
+        <button> Click Me If You Think GYG Is Amazing</button>
+        <a href = "GYGlogo1.png">
+        <img src="GYGlogo1.png">
+        </a>
+    </body>
+</html>
